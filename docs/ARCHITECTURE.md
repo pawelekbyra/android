@@ -11,9 +11,8 @@ Użytkownik operuje Wskaźnikiem P (0-100+):
 3. **Wizualizacja (Bio-Feedback)**: UI zmienia się od "zardzewiałego" (faza toksyczna <30 pkt) po "krystaliczny/szmaragdowy" (faza suwerenności >70 pkt).
 
 ## Kluczowe Moduły MVP (Bez logowania)
-1. **Panic Button (Protokół Zwarcia)**: 3-minutowy bloker z komendą fizyczną (pompki/lód).
-2. **Dziennik Suwerenności**: Zapis stanu (LocalStorage) - godziny od ostatniego nałogu, km biegu.
-3. **Upublicznij Nałogi**: Moduł w ustawieniach do absurdalnego "obnażania" swoich słabości (np. "Zabytkowy Komin - staż 18 lat").
+1. **Dziennik Suwerenności**: Zapis stanu (LocalStorage) - godziny od ostatniego nałogu, km biegu.
+2. **Upublicznij Nałogi**: Moduł w ustawieniach do absurdalnego "obnażania" swoich słabości (np. "Zabytkowy Komin - staż 18 lat").
 
 ## Technologia
 - **Framework**: Next.js 14+ (App Router), TypeScript.
