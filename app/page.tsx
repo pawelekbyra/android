@@ -1,6 +1,5 @@
 import { DashboardHeader } from "@/components/DashboardHeader";
 import { ProgressCard } from "@/components/ProgressCard";
-import { PanicButton } from "@/components/PanicButton";
 
 export default function Home() {
   return (
@@ -13,8 +12,6 @@ export default function Home() {
         <ProgressCard title="No-Fap" type="noFap" />
         <ProgressCard title="Bieganie" type="running" />
       </div>
-
-      <PanicButton />
 
       <footer className="mt-auto pt-20 flex flex-col items-center gap-4 opacity-30 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-700">
         <div className="text-[10px] font-mono uppercase tracking-[0.5em]">System Operacyjny Suweren v0.1-Alpha</div>
